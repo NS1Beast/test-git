@@ -1,0 +1,258 @@
+/* Thiết lập chung */
+body {
+    font-family: 'Roboto', sans-serif; /* Sử dụng font Roboto hoặc tương tự, cần import từ Google Fonts */
+    margin: 0;
+    padding: 0; /* Đặt padding về 0 ở body */
+    background-color: #f0f2f5; /* Màu nền xám nhạt */
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; /* Để CV bắt đầu từ trên */
+    min-height: 100vh; /* Đảm bảo đủ chiều cao */
+    box-sizing: border-box; /* Bao gồm padding và border vào kích thước */
+    font-size: 14px; /* Kích thước font cơ bản cho toàn bộ CV */
+    color: #333; /* Màu chữ mặc định */
+}
+a {
+    color: inherit; /* Giữ màu chữ giống cha */
+    text-decoration: none; /* Bỏ gạch chân */
+}
+
+    a:hover {
+        text-decoration: underline; /* Hiển thị gạch chân khi di chuột */
+    }
+
+/* Container chính của CV */
+.cv-container {
+    display: flex;
+    width: 21cm; /* Kích thước A4 (chiều rộng) */
+    min-height: 29.7cm; /* Kích thước A4 (chiều cao tối thiểu) */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15); /* Đổ bóng mạnh hơn một chút */
+    border-radius: 8px;
+    overflow: hidden; /* Đảm bảo nội dung không tràn ra ngoài */
+    background-color: #fff;
+    margin: 20px 0; /* Thêm margin trên dưới để tạo khoảng cách với mép trình duyệt */
+}
+
+/* Cột bên trái */
+.left-column {
+    width: 35%; /* Tỉ lệ chiều rộng so với tổng */
+    background-color: #f7f7f7; /* Màu nền xám nhạt */
+    padding: 30px 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px; /* Khoảng cách giữa các section, tăng nhẹ */
+    color: #555; /* Màu chữ tổng thể cho cột trái */
+}
+
+.profile-section {
+   text-align: center;
+    margin-bottom: 0; /* Giữ nguyên hoặc điều chỉnh nếu cần khoảng cách với section kế tiếp */
+    width: 100%; /* Giữ nguyên */
+
+    /* === Các thuộc tính mới hoặc điều chỉnh để tạo khung === */
+    border: 1px solid #e0e0e0; /* Viền mỏng màu xám nhạt */
+    border-radius: 120px 120px 120px 120px; /* Bo góc nhẹ cho khung */
+    padding: 25px 20px; /* Tăng padding bên trong khung để nội dung không sát viền */
+    box-sizing: border-box; /* Đảm bảo padding không làm tràn width */
+    background-color: #ffffff; /* Nền trắng bên trong khung, giúp nổi bật hơn nền xám của cột trái */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05); /* Đổ bóng nhẹ cho khung */
+}
+
+.profile-picture {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%; /* Làm tròn ảnh */
+    object-fit: cover; /* Đảm bảo ảnh không bị méo */
+    border: 3px solid #fff; /* Viền trắng */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25); /* Đổ bóng cho ảnh, mạnh hơn */
+}
+
+.contact-info {
+    margin-top: 25px; /* Tăng khoảng cách với ảnh */
+    text-align: left; /* Căn trái thông tin liên hệ */
+    width: 100%; /* Để các dòng text có thể căn trái */
+    padding-left: 10px; /* Thêm padding để text không sát mép */
+}
+
+    .contact-info p {
+        margin: 8px 0; /* Tăng khoảng cách giữa các dòng */
+        font-size: 0.9em; /* Giữ nguyên kích thước font */
+        line-height: 1.4;
+    }
+
+    .contact-info strong {
+        font-weight: 500; /* Làm cho chữ đậm hơn chút */
+        color: #333;
+    }
+
+
+/* Cột bên phải */
+.right-column {
+    width: 65%; /* Tỉ lệ chiều rộng còn lại */
+    background-color: #fff; /* Nền trắng */
+    padding: 30px 40px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    gap: 25px; /* Khoảng cách giữa các section */
+    color: #444; /* Màu chữ tổng thể cho cột phải */
+}
+
+/* Header bên phải */
+.header-section {
+      background-color: #ff8c00;
+        color: white;
+        padding: 5px 1px;
+        display: flex;
+        align-items: center;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        position: relative;
+        min-height: 80px; 
+        box-sizing: border-box;
+        height:20px;
+        font-weight:100;
+        
+}
+
+    .header-section h1 {
+        margin: 0;
+        font-size: 2.2em; /* Tăng kích thước font cho tên */
+        font-weight: 700;
+        letter-spacing: 1.5px; /* Khoảng cách chữ rộng hơn */
+        text-transform: uppercase; /* Chữ hoa */
+    }
+
+    .header-section p {
+        margin: 5px 0 0;
+        font-size: 1.1em;
+        font-weight: 300;
+    }
+
+/* Các section chung */
+.section {
+    margin-bottom: 0; /* Đặt lại margin mặc định của p và ul */
+}
+
+    .section h3 {
+        background-color: #ff6600; /* Màu cam */
+        color: #fff;
+        padding: 8px 15px;
+        border-radius: 5px; /* Bo góc nhẹ */
+        font-size: 1.1em;
+        font-weight: 500;
+        margin-top: 0;
+        margin-bottom: 15px;
+        display: inline-block; /* Để background chỉ bao quanh chữ */
+        text-transform: uppercase; /* Chữ hoa */
+        letter-spacing: 0.5px;
+    }
+
+    .section h4 {
+        margin: 0 0 5px;
+        font-size: 1em;
+        font-weight: 500;
+        color: #222; /* Màu đậm hơn cho tiêu đề con */
+    }
+
+    .section p {
+        margin: 0 0 10px;
+        line-height: 1.6; /* Tăng khoảng cách dòng cho dễ đọc */
+        color: #444;
+        font-size: 0.95em;
+    }
+
+    .section ul {
+        list-style: none; /* Bỏ dấu chấm */
+        padding: 0;
+        margin: 0;
+    }
+
+        .section ul li {
+            margin-bottom: 10px;
+            color: #444;
+            font-size: 0.95em;
+            line-height: 1.5;
+        }
+
+            .section ul li:last-child {
+                margin-bottom: 0;
+            }
+
+/* Định dạng riêng cho phần kinh nghiệm và chứng chỉ, kỹ năng để có dấu chấm */
+.experience ul li,
+.certifications ul li {
+    padding-left: 18px; /* Khoảng cách cho dấu chấm */
+    position: relative;
+}
+
+    .experience ul li:before,
+    .certifications ul li:before {
+        content: "\2022"; /* Dấu chấm tròn */
+        color: #ff6600; /* Màu cam */
+        font-weight: bold;
+        display: inline-block;
+        width: 1em;
+        margin-left: -1em;
+        position: absolute;
+        left: 0;
+        top: 0;
+        font-size: 1.2em; /* Kích thước dấu chấm */
+        line-height: 1.2;
+    }
+
+/* Phần Kỹ năng */
+.skills h3 {
+    width: calc(100% - 30px); /* Điều chỉnh lại chiều rộng để khớp với padding */
+    text-align: center;
+    box-sizing: border-box;
+    padding: 8px 15px;
+    margin-left: -15px; /* Kéo về bên trái để căn giữa theo cột */
+    margin-right: -15px; /* Kéo về bên phải */
+}
+
+.skills ul {
+    width: 100%;
+}
+
+    .skills ul li {
+        margin-bottom: 15px; /* Tăng khoảng cách giữa các kỹ năng */
+        font-size: 1em; /* Kích thước font cho tên kỹ năng chính */
+    }
+
+        .skills ul li h4 {
+            color: #222;
+            font-size: 1em;
+            margin-bottom: 5px;
+        }
+
+        .skills ul li p {
+            font-size: 0.9em;
+            color: #666;
+            line-height: 1.4;
+            padding-left: 0; /* Đảm bảo không có padding thừa */
+        }
+
+/* Nếu bạn muốn dấu chấm cho phần skills cũng giống experience/certifications */
+/* Bỏ comment block dưới đây nếu muốn */
+/*
+.skills ul li {
+    padding-left: 18px;
+    position: relative;
+}
+.skills ul li:before {
+    content: "\2022";
+    color: #ff6600;
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+    position: absolute;
+    left: 0;
+    top: 0;
+    font-size: 1.2em;
+    line-height: 1.2;
+}
+*/

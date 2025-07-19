@@ -1,0 +1,70 @@
+# Visual Studio 2015
+.vs/
+# Visual Studio 2017/2019/2022
+.vs/
+
+# Azure Tools
+.azure/
+
+# Rider
+.idea/
+
+# Build results
+[Dd]ebug/
+[Rr]elease/
+[Bb]in/
+[Oo]bj/
+[Aa]rm64/
+[Aa]rm/
+[Xx]64/
+[Xx]86/
+[Ll]og/
+
+# Package files
+*.nupkg
+*.snupkg
+*.suo
+*.user
+*.aps
+*.saf
+*.vshost.*
+*.opendb
+*.opensdf
+*.sdf
+*.bak
+*.log
+*.docstates
+*.dbmdl
+*.tlog
+*.vspscc
+*.vssscc
+*_i.c
+*_p.c
+*.ncb
+*.vc.db
+*.res
+
+# Unit test results
+*.trx
+*.testrunconfig
+*.coverage
+*.coveragexml
+*.runsettings
+
+# Git ignores
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# temp files
+*.tmp
+*.temp
+temp/
+
+# Configuration
+appsettings.Development.json
+appsettings.json
+web.config
+
+# UserSecrets (sensitive info)
+.usersecrets/

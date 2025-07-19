@@ -1,0 +1,67 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Program\\Web\\LapTrinhWeb\\test\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D8FA3F6E-BE3F-4FEE-91B1-8B8E1C167711}|test.csproj|d:\\program\\web\\laptrinhweb\\test\\css\\cv_style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{D8FA3F6E-BE3F-4FEE-91B1-8B8E1C167711}|test.csproj|solutionrelative:css\\cv_style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8FA3F6E-BE3F-4FEE-91B1-8B8E1C167711}|test.csproj|D:\\Program\\Web\\LapTrinhWeb\\test\\views\\home\\cv.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D8FA3F6E-BE3F-4FEE-91B1-8B8E1C167711}|test.csproj|solutionrelative:views\\home\\cv.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 209,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            }
+          ]
+        },
+        {
+          "DockedHeight": 92,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "cv_style.css",
+              "DocumentMoniker": "D:\\Program\\Web\\LapTrinhWeb\\test\\css\\cv_style.css",
+              "RelativeDocumentMoniker": "css\\cv_style.css",
+              "ToolTip": "D:\\Program\\Web\\LapTrinhWeb\\test\\css\\cv_style.css",
+              "RelativeToolTip": "css\\cv_style.css",
+              "ViewState": "AgIAAG8AAAAAAAAAAAAQwHIAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-07-11T06:58:26.15Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CV.cshtml",
+              "DocumentMoniker": "D:\\Program\\Web\\LapTrinhWeb\\test\\Views\\Home\\CV.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\CV.cshtml",
+              "ToolTip": "D:\\Program\\Web\\LapTrinhWeb\\test\\Views\\Home\\CV.cshtml",
+              "RelativeToolTip": "Views\\Home\\CV.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA8AAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-11T06:51:47.457Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
